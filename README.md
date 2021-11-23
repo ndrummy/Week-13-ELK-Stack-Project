@@ -1,8 +1,5 @@
 # Week 13 ELK Stack Project
-### KEtaN V. Patel -- ELK Stack Project  
-#### _June 16, 2021 -- UofT Cybersecurity - Boot Camp_  
 
-Automated ELK Stack Deployment
 ==============================
 The files in this repository were used to configure the network depicted below.  
 
@@ -359,5 +356,3 @@ As a **Bonus**, provide the specific commands the user will need to run to downl
 - [Ansible: Roles Playbook Reuse Roles](https://docs.ansible.com/ansible/latest/user_guide/playbooks_reuse_roles.html "Ansible: Roles Playbook Reuse Roles")
 - [Elastic: Getting Started with the Elastic Stack](https://www.elastic.co/guide/en/elastic-stack-get-started/current/get-started-elastic-stack.html "Elastic: Getting Started with the Elastic Stack")  
 -------------------------------------------------------------------------------------------------------------
-
-Jai Shri Swaminarayan
