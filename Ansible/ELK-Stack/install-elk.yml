@@ -1,10 +1,10 @@
 ---
 - name: Configure Elk VM with Docker
   hosts: elk
-  remote_user: azadmin
+  remote_user: azureuser
   become: true
   tasks:
-    # Use apt module
+     # Use apt module
     - name: Install docker.io
       apt:
         update_cache: yes
@@ -24,15 +24,19 @@
         name: docker
         state: present
 
+      # Use command module
+    - name: Increase virtual memory
+      command: sysctl -w vm.max_map_count=262144
+
       # Use sysctl module
     - name: Use more memory
       sysctl:
         name: vm.max_map_count
-        value: "262144"
+        value: 262144
         state: present
         reload: yes
 
-      # Use docker_container module
+         # Use docker_container module
     - name: download and launch a docker elk container
       docker_container:
         name: elk
