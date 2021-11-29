@@ -157,11 +157,11 @@ SSH into the control node and follow the steps below:
 
 **Question: Which file is the playbook?**
 
-Ansible: [My First Playbook](/Ansible/Docker/pentest.yml "My First Playbook")_**
+Ansible: [My First Playbook](/Ansible/Docker/pentest.yml "My First Playbook")
 
-Filebeat: [Filebeat Playbook](/Ansible/Filebeat/filebeat_playbook.yml "Filebeat Playbook")_**
+Filebeat: [Filebeat Playbook](/Ansible/Filebeat/filebeat_playbook.yml "Filebeat Playbook")
 
-Metricbeat: [Metricbeat Playbook](/Ansible/Metricbeat/metricbeat-playbook.yml "Metricbeat Playbook")_** 
+Metricbeat: [Metricbeat Playbook](/Ansible/Metricbeat/metricbeat-playbook.yml "Metricbeat Playbook")
 
 **Question: Where do you copy it?**
 
