@@ -110,11 +110,11 @@ The following screenshot displays the result of running `docker ps` after succes
 
 ELKserver
 ---------
-![DockerPS](/Diagrams/Images/Sudo-Docker-Container-List-ELK.PNG "ELKserver")
+![DockerPS](/Images/Sudo-Docker-Container-List-ELK.png "ELKserver")
 
 Jump-Box-Provisioner
 --------------------
-![DockerPS](/Images/Sudo-Docker-Container-List.PNG "Jump-Box-Provisioner")
+![DockerPS](/Images/Sudo-Docker-Container-List.png "Jump-Box-Provisioner")
 
 -------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -155,11 +155,11 @@ SSH into the control node and follow the steps below:
 
 **Question: Which file is the playbook?**
 
-For Ansible **_[My First Playbook](/Ansible/Docker/pentest.yml "My First Playbook")_**
+Ansible: [My First Playbook](/Ansible/Docker/pentest.yml "My First Playbook")_**
 
-For Filebeat **_[Filebeat Playbook](/Ansible/Filebeat/filebeat_playbook.yml "Filebeat Playbook")_**
+Filebeat: [Filebeat Playbook](/Ansible/Filebeat/filebeat_playbook.yml "Filebeat Playbook")_**
 
-For Metricbeat create **_[Metricbeat Playbook](/Ansible/Metricbeat/metricbeat-playbook.yml "Metricbeat Playbook")_** 
+Metricbeat: [Metricbeat Playbook](/Ansible/Metricbeat/metricbeat-playbook.yml "Metricbeat Playbook")_** 
 
 **Question: Where do you copy it?**
 
@@ -175,7 +175,7 @@ I have specified two separate groups in the etc/ansible/hosts file. One of the g
 
 **Question:Which URL do you navigate to in order to check that the ELK server is running?**
 
-http://20.84.136.248:5601//app/kibana
+http://20.84.136.248:5601/app/kibana
 
 -------------------------------------------------------------------------------------------------------------------------------------------
 
