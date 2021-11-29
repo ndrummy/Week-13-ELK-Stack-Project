@@ -129,11 +129,11 @@ We have installed the following Beats on these machines:
 
 Filebeat
 ---------
-![Filebeat Status Screenshot](/Images/Filebeat-success-data.PNG "Filebeat Data Successful")
+![Filebeat Status Screenshot](/Images/Filebeat-success-data.png "Filebeat Data Successful")
 
 Metricbeat
 ----------
-![Metricbeat Status Screenshot](/Images/Metricbeat-success-data.PNG "Metricbeat Data Successful")
+![Metricbeat Status Screenshot](/Images/Metricbeat-success-data.png "Metricbeat Data Successful")
 
 These Beats allow us to collect the following information from each machine:
 
