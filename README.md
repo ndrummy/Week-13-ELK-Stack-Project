@@ -87,10 +87,10 @@ Answer: Workstation using my Public IP via port TCP 5601.
 A summary of the access policies in place can be found in the table below.
 |        Name        |  Publicly Accessible  |          Allowed IP Addresses           |
 |--------------------|-----------------------|-----------------------------------------|
-| Jump Box           | Yes                   | 149.167.138.97 (Workstation IP on SSH 22) |
+| Jump Box           | Yes                   | Workstation IP on SSH 22)               |
 | Web-1              | No                    | 10.1.0.5 on SSH 22                      |
-| Web-2              | No                    | 10.1.0.6 on SSH 22                    
-| ELKserver          | No                    | Workstation MY Public IP using TCP 5601 |
+| Web-2              | No                    | 10.1.0.6 on SSH 22                      |
+| ELKserver          | Yes                   | http://your-elk-vm-ip:5601              |
 
 -------------------------------------------------------------------------------------------------------------------------------------------
 
