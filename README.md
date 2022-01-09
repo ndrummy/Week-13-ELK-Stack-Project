@@ -87,7 +87,7 @@ Answer: Workstation using my Public IP via port TCP 5601.
 A summary of the access policies in place can be found in the table below.
 |        Name        |  Publicly Accessible  |          Allowed IP Addresses           |
 |--------------------|-----------------------|-----------------------------------------|
-| Jump Box           | Yes                   | Workstation IP on SSH 22)               |
+| Jump Box           | Yes                   | Workstation IP on SSH 22                |
 | Web-1              | No                    | 10.1.0.5 on SSH 22                      |
 | Web-2              | No                    | 10.1.0.6 on SSH 22                      |
 | ELKserver          | Yes                   | http://your-elk-vm-ip:5601              |
@@ -156,14 +156,12 @@ In order to use the playbook, you will need to have an Ansible control node alre
 SSH into the control node and follow the steps below:
 
 - Copy the **_yml_** file to **_ansible folder._**
-- Update the **_config_** file to include **_remote users and ports._**
+- Update the **_hosts_** file to include **_the ELK server IP.**
 - Run the playbook, and navigate to **_Kibana Your IP Address:5601_** to check that the installation worked as expected.
-
-## Answer the following questions to fill in the blanks:*
 
 **Question: Which file is the playbook?**
 
-Ansible: [My First Playbook](/Ansible/Docker/pentest.yml "My First Playbook")
+Ansible: [My First Playbook](/Ansible/ELK-Stack/install-elk.yml "My First Playbook")
 
 Filebeat: [Filebeat Playbook](/Ansible/Filebeat/filebeat_playbook.yml "Filebeat Playbook")
 
